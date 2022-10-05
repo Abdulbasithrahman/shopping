@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="head">
+  <div class="header">
+      <div class="row " style="background-color: #002e35; color: #fff;" >
+        <div class="container">
+          
+            <center><p class="nav-let" style="padding-top:10px;">FREE DELIVERY ON ORDERS ABOVE Rs.2000/-</p></center>
+         
+        </div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img class="brand" src="./images/black_logo.png" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Woman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home & Living</a>
+          </li>
+        </ul>
+        <form class="navorder">
+          <button class="nav-search" type="submit"><img src="./images/search.svg" /></button>
+          <button class="nav-search" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" width="24"
+              height="24" class="icon icon-account" fill="none" viewBox="0 0 18 19">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z"
+                fill="currentColor"></path>
+            </svg>
+          </button>
+          <button class="nav-search cart-svg" type="submit">
+            <svg class="icon icon-cart" aria-hidden="true" width="40" height="40" focusable="false" role="presentation"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z">
+              </path>
+            </svg>
+          </button>
+          <span class="cart-count"style="border-radius:50%;background-color:#002e35;color: white;">1</span>
+        </form>
+
+      </div>
+    </nav>
+  </div>
+</div>
+  <!-- Main  -->
+  <div class="container">
+    <div class="row">
+      <!-- Product Image div -->
+      <div class="col-sm-6">
+        <div class="Product_image">
+          <div class="product_main_image">
+            <img class="productimg" id="l1h"src="./images/product-image-1.png" alt="" srcset="">
+            <img class="productimg" id="i1" src="./images/product-image-1.png" alt="" srcset="">
+          </div>
+          <div class="product_sub_image">
+            <img class="productimg" id="l2h"src="./images/product-image-1.png" alt="" srcset="">
+            <img class="productimg" src="./images/product-image-2.png" alt="" srcset="">
+            <img class="productimg" id="i2" src="./images/product-image-1.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Details -->
+      <div class="col-sm-6">
+        <p style="margin-top: 20px;">clothing company</p>
+        <h1 style="font-weight:700">Ruffled Sleevless Top</h1>
+        <div class="prizeDiv">
+          <del>Rs.1599.00</del>
+            <i>Rs.899.00</i>
+            <span style="background-color: #002e35;color:white;padding:5px;border-radius:40%;margin:5px;">Sale</span>
+        </div>
+        <div class="main-size">
+          <button class="size-button">S</button>
+          <button class="size-button activee">M</button>
+          <button class="size-button">L</button>
+          <button class="size-button">XL</button>
+        </div>
+        <div style="padding-top: 10px;">Quantity</div>
+        <div class="main-quantity" >
+          <button class="number" style="border: 1px solid gray;height:30px;">
+            <span class="minus">-</span>
+            <input type="text" style="width: 40px;height: 25px;font-size: small;" value="1" />
+            <span class="plus">+</span>
+          </button>
+        </div>
+
+
+
+        <div class="main-cart">
+          <button class="cart-button">Add to cart</button>
+          <button class="cart-button" style="background-color:#002e35;color:white;margin-top: 10px;">Buy it now</button>
+        </div>
+        <div class="main-menudescrip">
+          <p class="main-description">
+            A dreamy feminine piece, this top is made from a medium weight, extra soft cotton biend with a light airy
+            feel and paper-like quality.
+          </p>
+          <p class="main-description">
+            Designed with voluminous ruffled straps as well as ruffle details across the chest, its has a straight cut
+            fit and a square neckline.
+          </p>
+        </div>
+        <div class="main-details">
+          <div class="details-opt ">
+            <img style="width:25px ;" src="./images/icon-materials.svg"/>
+              <select class="opt-list">
+                <option value="0">Materials</option>
+              </select>
+          </div>
+          <div class="details-opt ">
+            <img style="width:25px ;" src="./images/icon-shipping.svg"/>
+              <select class="opt-list">
+                <option value="0">Shipping & Returns</option>
+              </select>
+          </div>
+          <div class="details-opt ">
+            <img style="width:25px ;" src="./images/icon-dimensions.svg"/>
+              <select class="opt-list">
+                <option value="0">Dimensions</option>
+              </select>
+          </div>
+          <div class="details-opt ">
+            <img style="width:25px ;" src="./images/icon-care.svg"/>
+              <select class="opt-list">
+                <option value="0">Care Instructions</option>
+              </select>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    
+</body>
+<script src="index.js"></script>
+</html>

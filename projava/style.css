@@ -1,0 +1,187 @@
+.head{
+    font-family: "Roboto",Condensed;
+}
+body {
+    margin: 0;
+    font-family: 'Open',sans-serif ;
+}
+
+.nav-let {
+    padding-top: 3px;
+}
+
+.nav-top {
+    margin: 0;
+    width: 100%;
+    font-family: Roboto Condensed;
+    color: white;
+    height: 30px;
+    padding-left: 39%;
+}
+
+.brand {
+    width: 180px;
+    margin-left: 80px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.collapse {
+    position: absolute;
+    left: 500px;
+    font-weight: 900;
+}
+
+.navorder {
+    position: absolute;
+    left: 680px;
+    display: flex;
+    top: 1px;
+}
+
+.nav-search {
+    border: none;
+    margin-left: 12px;
+}
+
+.productimg {
+    width: 250px;
+}
+
+.Product_image {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+/* TRUTU1 */
+span {
+    cursor: pointer;
+}
+
+.number {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.minus,
+.plus {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input {
+    height: 34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.size-button{
+    border-radius: 40%;
+    border: 0.5px solid gray ;
+    width: 35px;
+    margin-top: 15px;
+}
+#i2 {
+    display: none;
+}
+.main-description{
+     opacity: 0.7;
+     padding-top: 10px;
+     letter-spacing: 0.2;
+}
+.activee{
+    background-color: black;
+    color: white;
+}
+.main-cart{
+    display: flex;
+    flex-direction: column;
+}
+.cart-button{
+    padding: 10px;
+}
+.opt-list{
+    border: none;
+     font-size: large;
+     width: 520px;
+     font-weight: 800;
+     padding-left: 10px;
+}
+.details-opt{
+    display: flex;
+    margin-top: 30px;
+}
+.cart-svg{
+    position: relative;
+}
+.cart-count{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width:375px) {
+
+    .product_sub_image {
+        display: flex;
+        overflow: hidden;
+        height: 100px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product_sub_image>img {
+        background-color: #f1f1f1;
+        width: 70px;
+        margin: 10px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    #i1 {
+        display: none;
+    }
+
+    #i2 {
+        display: block;
+    }
+    #l1h{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        object-fit: contain;
+    }
+    #l2h{
+        display: block;
+        border: 1px solid black;
+    }
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        left: 20px;
+        border: none;
+    }
+}
